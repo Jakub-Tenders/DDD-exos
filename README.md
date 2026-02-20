@@ -137,3 +137,4 @@ Now `price: -50` is a compile-time error (a raw `number` is not assignable to `P
 - **Push validation to the boundary.** Parse raw input (user forms, API responses, database rows) into strong domain types at the edge of your system. Inside the domain, trust the types.
 - **Domain logic belongs inside domain objects.** An `OperatingHours` object should know how to answer "am I open at 2 AM?". A `Money` object should know how to add two amounts in the same currency. Don't scatter this logic across utility functions.
 - **Types are documentation.** When a function takes `Price` instead of `number`, its intent is clear without comments. When a function takes `Email` instead of `string`, you know the value has been validated.
+# DDD-exercices
