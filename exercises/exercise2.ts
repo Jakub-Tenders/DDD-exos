@@ -40,7 +40,7 @@ export function exercise2_PrimitiveQuantity() {
 
 	const order: Order = {
 		itemName: "Pizza",
-		quantity: -3, // Silent bug! Negative quantity
+		quantity: createQuantity(-3), // Silent bug! Negative quantity
 		pricePerUnit: 15,
 	}
 

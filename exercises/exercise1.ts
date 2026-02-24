@@ -41,7 +41,7 @@ export function exercise1_PrimitivePrice() {
 
 	const orderItem: MenuItem = {
 		name: "Burger",
-		price: -50, // Silent bug! Negative price
+		price: createPrice(-50), // Silent bug! Negative price
 		quantity: 1,
 	}
 
